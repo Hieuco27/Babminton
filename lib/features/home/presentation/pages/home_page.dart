@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../../../core/constants/app_colors.dart';
-import '../../../../core/di/injection_container.dart';
+import '../../../../app/constants/app_colors.dart';
+import '../../../../app/di/injection_container.dart';
 import '../../../../core/utils/date_formatter.dart';
 import '../../../common/widgets/glass_container.dart';
 import '../../../common/widgets/nav_bar.dart';
 import '../../../common/widgets/pulse_dot.dart';
-import '../cubit/home_cubit.dart';
-import '../cubit/home_state.dart';
+import '../bloc/home_cubit.dart';
+import '../bloc/home_state.dart';
 import '../widgets/telemetry_card.dart';
 
 class HomePage extends StatefulWidget {

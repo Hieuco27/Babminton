@@ -1,5 +1,5 @@
 import 'dart:developer' as developer;
-import '../config/app_config.dart';
+import '../../app/config/app_config.dart';
 
 class AppLogger {
   static void d(String message, {String tag = 'DEBUG'}) {

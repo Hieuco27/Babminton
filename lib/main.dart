@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'core/config/app_config.dart';
-import 'core/di/injection_container.dart';
-import 'core/router/app_router.dart';
-import 'core/storage/hive_service.dart';
-import 'core/theme/app_theme.dart';
+import 'app/config/app_config.dart';
+import 'app/di/injection_container.dart';
+import 'app/routers/app_router.dart';
+import 'core/sevices/hive_service.dart';
+import 'app/theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,11 +19,11 @@ void main() async {
   // Initialize Dependency Injection
   await initDependencies();
 
-  runApp(const ThermoHumiApp());
+  runApp(const BadmintonApp());
 }
 
-class ThermoHumiApp extends StatelessWidget {
-  const ThermoHumiApp({super.key});
+class BadmintonApp extends StatelessWidget {
+  const BadmintonApp({super.key});
 
   @override
   Widget build(BuildContext context) {

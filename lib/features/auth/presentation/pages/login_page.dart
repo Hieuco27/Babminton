@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import '../../../../core/constants/app_colors.dart';
-import '../../../../core/router/route_names.dart';
+import '../../../../app/constants/app_colors.dart';
+import '../../../../app/routers/route_names.dart';
 import '../../../common/widgets/custom_button.dart';
 import '../../../common/widgets/custom_text_field.dart';
 import '../../../common/widgets/glass_container.dart';

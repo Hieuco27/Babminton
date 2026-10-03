@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
-import '../config/app_config.dart';
-import '../storage/secure_storage_service.dart';
+import '../../app/config/app_config.dart';
+import '../sevices/secure_storage_service.dart';
 import 'api_interceptors.dart';
 
 class DioClient {

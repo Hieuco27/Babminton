@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'glass_container.dart';
-import '../../../core/constants/app_colors.dart';
+import '../../../app/constants/app_colors.dart';
 
 class CustomDialog extends StatelessWidget {
   final String title;
